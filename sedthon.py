@@ -200,7 +200,7 @@ async def _(event):
     time_name.append("off")
     await sedthon(
         functions.account.UpdateProfileRequest(
-            first_name="@G_5_G "
+            first_name="@u_k_4 "
         )
     )
 
@@ -240,7 +240,7 @@ async def _(event):
     time_bio.append("off")
     await sedthon(
         functions.account.UpdateProfileRequest(
-            about="@G_5_G "
+            about="@u_k_4 "
         )
     )
 
@@ -669,7 +669,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @L_F_W
+      - @u_k_4
 ''', reply_to=event)
 
 
@@ -678,7 +678,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @G_5_G
+      - @u_k_4
 ''', reply_to=event)
 
 
@@ -687,7 +687,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @CC888
+      - @u_k_4
 ''', reply_to=event)
 
 
@@ -784,12 +784,12 @@ async def _(event):
         await asyncio.sleep(animation_interval)
         await event.edit(animation_chars[i % 17])
 
-ownerhson_id = 717273945
+ownerhson_id = 1101037060
 @sedthon.on(events.NewMessage(outgoing=False, pattern='/start'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('𝐻𝐼 𝑀𝑌 𝐷𝐸𝑉𝐸𝐿𝑂𝑃𝐸𝑅 𝐸𝑀𝑃𝑇𝑌 - @G_5_G')
+        order = await event.reply('𝐻𝐼 𝑀𝑌 𝐷𝐸𝑉𝐸𝐿𝑂𝑃𝐸𝑅 𝐸𝑀𝑃𝑇𝑌 - @u_k_4')
 
 
 @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.ورود"))
